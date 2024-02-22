@@ -14,6 +14,6 @@ Place this function in your .bashrc:
 Use it to set the PS1 variable which contains the prompt.  
 ```bash
     # Prepend current git branch to bash prompt
-    PS1="\[\033[01;31m\]\$(git_ps1)${PS1}"  
+    PS1="\[\033[01;31m\]\$(git_ps1)\[\e[0m\]${PS1}"
 ```
 München Januar 2024, de-arl.  
